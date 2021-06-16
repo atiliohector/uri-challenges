@@ -7,13 +7,16 @@ for i in range(x):
     b = c[1] 
 
     if a>b:
-        for f in range(a+1,b):
+        soma = 0
+        for f in range(b+1,a):
             if f%2 != 0:
-                f += f
-                print(f)
+                soma += f
+        print(soma)
     elif b>a:
-        for l in range(b+1,a):
+        soma = 0
+        for l in range(a+1,b):
             if l%2 !=0:
-                print(l)
+                soma+=l
+        print(soma)
     elif a == b:
         print(0)
