@@ -19,6 +19,6 @@ while True:
         for i in range(m,n+1):
             listinha_2.append(i)
             sum += i
-        print(*listinha_2, sep=' ')
+        print(*listinha_2)
         print(sum)
         break
